@@ -21,8 +21,4 @@ This project processes the top GitHub repositories using Apache Spark and stores
    Columns: `search_term`, `relevance_score`  
    Formula: `1.5 * forks + 1.32 * subscribers + 1.04 * stars`
 
-##  Running the Project
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
